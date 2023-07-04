@@ -5,10 +5,11 @@
 
 console.log("\n================================");
 function somma(a, b) {
-    if(a == b){
-        return (a+b)*3;
+    if(a === b){
+        return ( a + b ) * 3;
+    } else {
+        return a + b;
     }
-    return a + b;
 }
 console.log("Esercizio 1: ");
 console.log("La somma dei due numeri è: ", somma(2, 2));
